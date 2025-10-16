@@ -1,6 +1,6 @@
 <h1>ExpNo 8 : Solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python</h1> 
-<h3>Name:               </h3>
-<h3>Register Number/Staff Id:       </h3>
+<h3>Name:TANISHA S               </h3>
+<h3>Register Number: 212224050053      </h3>
 <H3>Aim:</H3>
 <p>
     To solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python
@@ -30,7 +30,7 @@ isValid(nodeList, count, word1, word2, word3)<br>
 Input − A list of nodes, the number of elements in the node list and three words.<br>
 
 Output − True if the sum of the value for word1 and word2 is same as word3 value.<br>
-
+```
 Begin<br>
    m := 1<br>
    for each letter i from right to left of word1, do<br>
@@ -42,7 +42,6 @@ Begin<br>
       val1 := val1 + (m * nodeList[j].value)<br>
       m := m * 10<br>
    done<br>
-
    m := 1<br>
    for each letter i from right to left of word2, do<br>
       ch := word2[i]<br>
@@ -54,7 +53,6 @@ Begin<br>
       val2 := val2 + (m * nodeList[j].value)
       m := m * 10
    done<br>
-
    m := 1<br>
    for each letter i from right to left of word3, do<br>
       ch := word3[i]<br>
@@ -66,13 +64,13 @@ Begin<br>
       val3 := val3 + (m * nodeList[j].value)
       m := m * 10
    done<br>
-
    if val3 = (val1 + val2), then<br>
       return true<br>
    return false<br>
 End<br>
+```
 <hr>
-<h2>Sample Input and Output:</h2>
+<h2> Input and Output:</h2>
 SEND = 9567<br>
 MORE = 1085<br>
 <hr>
